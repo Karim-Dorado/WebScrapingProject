@@ -3,7 +3,7 @@ Python 3.9 is required to run this utility. Make sure to download and install th
 
 ## Instructions
 
-### On macOS and Linux:
+### On macOS and Linux: 
 
 **Step 1:** Open your terminal program, and create a directory that will contain all files from this repository.
 `mkdir BooksOnline`
