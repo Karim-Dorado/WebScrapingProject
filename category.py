@@ -32,9 +32,8 @@ def scrape_cat(url):
         for url in cat_list:
             r = requests.get(url)
             if r.ok:
-                encoding = r.encoding \
-                    if "charset" in r.headers.get("content-type",
-                                                  "").lower() else None
+                encoding = r.encoding if "charset" in r.headers.get(
+                    "content-type", "").lower() else None
                 soup = BeautifulSoup(r.content,
                                      from_encoding=encoding,
                                      features="html.parser")
