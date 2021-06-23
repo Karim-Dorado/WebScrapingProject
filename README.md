@@ -11,7 +11,8 @@ Python 3.9 is required to run this utility. Make sure to download and install th
 **Step 2:** Move from your current working directory to the one you have just created. 
 `cd WebScrapingProject`
 
-**Step 3:** Clone this repository.
+**Step 3:** Clone this repository.*
+***part1***
 
 **Step 4:** Create and activate your virtual environment 
 `python -m venv env`
